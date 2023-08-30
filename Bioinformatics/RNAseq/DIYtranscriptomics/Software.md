@@ -4,4 +4,4 @@ Kallisto is an alining and mapping package designed for bulk and single cell RNA
 
 ### Alinging and read mapping using `kallisto`
 
-There could be an issue with creating index file from a reference fasta if using `kallisto 0.50.0` saying `Illeagal instructin`. It could be [solved](https://github.com/bioconda/bioconda-recipes/issues/42633) with downgrading to `kallisto 0.48.0` version and then running it. Otherwise, an allready created indices could be downloaded form Patcher Lab's GitHub [page](https://github.com/pachterlab/kallisto-transcriptome-indices/releases).
+There could be an issue with creating index file from a reference fasta if using `kallisto 0.50.0` saying `"Illegal instructin"`. It could be [solved](https://github.com/bioconda/bioconda-recipes/issues/42633) with downgrading to `kallisto 0.48.0` version and then running it. Otherwise, an allready created indices could be downloaded form Patcher Lab's GitHub [page](https://github.com/pachterlab/kallisto-transcriptome-indices/releases).
