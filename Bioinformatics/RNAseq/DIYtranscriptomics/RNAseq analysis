@@ -1,0 +1,11 @@
+conda activate rnaseq
+# enter the folder where reference.fasta is held
+kallisto -i Homo_sapiens.GRCh38.cdna.all.idx Homo_sapiens.GRCh38.cdna.all.fa
+# this generates an indexed reference file called "Homo_sapiens.GRCh38.cdna.all.idx"
+# alternatively, download premade kallisto references
+kallisto quant -i homo_sapiens/transcriptome.idx -o test -t 6 --single -l 250 -s 30 SRR8668755_1M_subsample.fastq.gz &>test.log
+# this will map your data (SRR8668755_1M_subsample.fastq.gz in this case) against the generated index file
+# -o is for output in "test folder"
+# -t is for multithreading with 6 threads in this case. This number depends on your hardware. The more threads you use, the faster the mapping will be done.
+# -l is for read leanght, telling the software that all reads are 250 bp long
+# -s is for SD of read leanght, so it will take up 250+/-30 bs long reads and discard the rest as junk
