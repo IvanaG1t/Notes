@@ -1,0 +1,33 @@
+mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm -rf ~/miniconda3/miniconda.sh
+~/miniconda3/bin/conda init bash
+
+# restart terminal to let changes take effect
+
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+conda config --set offline false
+conda info --envs
+conda list
+conda create --name rnaseq
+conda activate rnaseq
+conda install -c bioconda kallisto
+kallisto
+conda install -c bioconda fastqc
+conda install -c bioconda multiqc
+fastqc
+multiqc
+conda deactivate
+conda create -y --name kb python=3.8
+conda activate kb
+pip install kb-python
+conda create --name sourmash
+conda activate sourmash
+conda install -c bioconda sourmash
+sourmash
+conda activate kb
+kb
+conda deactivate
