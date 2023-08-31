@@ -1,0 +1,384 @@
+    1  exit
+    2  wget http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/genePredToGtf
+    3  cd ..
+    4  cd /
+    5  cd mnt/c
+    6  ls
+    7  cd Users
+    8  ls
+    9  cd Ivana
+   10  ls
+   11  cd Documents/R
+   12  cd OMGenomics
+   13  ls
+   14  gzip -d refGene.txt.gz
+   15  rsync -a -P rsync://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/refGene.txt.gz ./
+   16  gzip -d refGene.txt.gz
+   17  ls
+   18  cd ..
+   19  ls
+   20  cd ..
+   21  ls
+   22  cd mnt
+   23  cd c
+   24  ls
+   25  cd Users/Ivana
+   26  ls
+   27  cd Desktop
+   28  ls
+   29  mv package.txt /bin
+   30  sudo mv package.txt /bin
+   31  wget https://gdc.cancer.gov/files/public/file/gdc-client_v1.6.1_Ubuntu_x64.zip
+   32  gzip
+   33  unzip
+   34  sudo apt-get install unzip
+   35  unzip ‘gdc-client_v1.6.1_Ubuntu_x64.zip
+   36  ls
+   37  unzip gdc-client_v1.6.1_Ubuntu_x64.zip
+   38  mv gdc-client ../bin
+   39  sudo mv gdc-client /bin
+   40  cd /
+   41  cd ..
+   42  sudo cd /
+   43  sudo -D /bin/gdc-client
+   44  sudo -D /bin gdc-client
+   45  ls
+   46  cd bin
+   47  ls
+   48  wget https://github.com/NCI-GDC/gdc-client/blob/develop/bin/package
+   49  ls
+   50  sudo ls
+   51  mv package.txt package
+   52  sudo mv package.txt package
+   53  ls
+   54  ./package
+   55  rmv
+   56  rm
+   57  rm --help
+   58  sudo rm package
+   59  ls
+   60  sudo wget https://github.com/NCI-GDC/gdc-client/blob/develop/bin/package
+   61  sudo ./package
+   62  ./package
+   63  #
+   64  cd #
+   65  sudo -i
+   66  sudo -s
+   67  hash -r
+   68  gdc-client
+   69  gdc-client settings
+   70  git clone
+   71  git clone https://github.com/NCI-GDC/gdc-client
+   72  ls
+   73  cd bin/
+   74  ls
+   75  ./package
+   76  pythonh
+   77  python
+   78  ls
+   79  sudo -s
+   80  python
+   81  ./package
+   82  cd ..
+   83  rm -rf gdc-client
+   84  ls
+   85  gdc-client
+   86  gdc-client settings
+   87  gdc-client settings download
+   88  gdc-client download -m /mnt/c/Users/Ivana/Desktop/gdc_manifest.2023-08-24.txt
+   89  ls
+   90  less genePredToGtf
+   91  ls -al
+   92  mkdir gdc_download
+   93  cd gdc_download/
+   94  gdc-client -v
+   95  ping www.google.com
+   96  gdc-client download -m /mnt/c/Users/Ivana/Desktop/gdc_manifest.2023-08-24.txt
+   97  pss
+   98  ps
+   99  ps -axuw
+  100  kill -9 1317
+  101  cd gdc_download/
+  102  ls
+  103  ls -al
+  104  cp /mnt/c/Users/Ivana/Desktop/gdc_manifest.2023-08-24.txt
+  105  cp /mnt/c/Users/Ivana/Desktop/gdc_manifest.2023-08-24.txt .
+  106  less gdc_manifest.2023-08-24.txt
+  107  gdc-client 02878985-e811-4ede-adb6-0ede249a497f
+  108  gdc-client download 02878985-e811-4ede-adb6-0ede249a497f
+  109  ls
+  110  less 02878985-e811-4ede-adb6-0ede249a497f/TCGA-AG-4007-01A-21-1933-20_RPPA_data.tsv
+  111  less gdc_manifest.2023-08-24.txt
+  112  wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR101/038/ERR10162438/ERR10162438_1.fastq.gz
+  113  rm gdc-client_v1.6.1_Ubuntu_x64.zip
+  114  rm ERR10162438_1.fastq.gz
+  115  rm gdc-client_v1.6.1_Ubuntu_x64.zip
+  116  rm genePredToGtf
+  117  ls
+  118  wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR404/000/ERR4049870/ERR4049870.fastq.gz
+  119  wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR404/001/ERR4049871/ERR4049871.fastq.gz
+  120  ls
+  121  wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR404/002/ERR4049872/ERR4049872.fastq.gz
+  122  mkdir RNA-seq
+  123  cd RNA-seq
+  124  wget ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE50nnn/GSE50760/matrix/
+  125  ls
+  126  nano index.html
+  127  wget ftp://ftp.ncbi.nlm.nih.gov:21/geo/series/GSE50nnn/GSE50760/matrix/GSE50760_se
+  128  nano index.html
+  129  wget https://trace.ncbi.nlm.nih.gov/Traces?run=SRR975604
+  130  ls
+  131  nano 'Traces?run=SRR975604'
+  132  rm 'Traces?run=SRR975604'
+  133  rm index.html
+  134  ls
+  135  cd ..
+  136  ls
+  137  mkdir -p ~/miniconda3
+  138  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+  139  bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+  140  rm -rf ~/miniconda3/miniconda.sh
+  141  ~/miniconda3/bin/conda init bash
+  142  cd miniconda
+  143  cd ..
+  144  ls
+  145  cd ivana
+  146  ls
+  147  cd miniconda3/bin
+  148  ls
+  149  conda init bash
+  150  cd
+  151  cd miniconda3
+  152  conda
+  153  cd conda
+  154  conda info
+  155  conda info --envs
+  156  conda config --add channels defaults
+  157  conda config --add channels bioconda
+  158  conda config --add channels conda-forge
+  159  conda config --set offline false
+  160  conda info --envs
+  161  conda list
+  162  conda --help
+  163  conda create --name rnaseq
+  164  conda activate rnaseq
+  165  conda install -c bioconda kallisto
+  166  kallisto
+  167  conda install -c bioconda fastqc
+  168  conda install -c bioconda multiqc
+  169  fastqc
+  170  multiqc
+  171  'multiqc --help
+  172  q
+  173  exit
+  174  x
+  175  '
+  176  multiqc --help
+  177  conda deactivate
+  178  conda create -y --name kb python=3.8
+  179  conda activate kb
+  180  pip install kb-python
+  181  conda create --name sourmash
+  182  conda activate sourmash
+  183  conda install -c bioconda sourmash
+  184  sourmash
+  185  conda activate kb
+  186  kb
+  187  conda deactivate
+  188  ls
+  189  cd RNA-seq/
+  190  ls
+  191  mkdir DIY
+  192  cd DIY/
+  193  df
+  194  cd
+  195  cd dev
+  196  cd /
+  197  ls
+  198  cd dev
+  199  ls
+  200  cd sdc
+  201  cd ..
+  202  cd mnt
+  203  ls
+  204  ..
+  205  conda deactivate
+  206  cd
+  207  lsusb
+  208  df
+  209  path
+  210  pwd#
+  211  pwd
+  212  cd RNA-seq/DIY/
+  213  ls
+  214  ls
+  215  cd RNA-seq/DIY/
+  216  ls
+  217  wget https://drive.google.com/file/d/1NMFghr8Bf7zExLSTgjM4Ch6zWI9L5EzH/view?usp=drive_link
+  218  ls
+  219  rm 'view?usp=drive_link'
+  220  ls
+  221  cd
+  222  cd /
+  223  cd mnt
+  224  cd c
+  225  ls
+  226  cd Users/Ivana/Downloads/
+  227  ls
+  228  mv SRR8668755_1M_subsample.fastq.gz /RNA-seq/DIY
+  229  mv SRR8668755_1M_subsample.fastq.gz /home/ivana/RNA-seq/DIY/SRR8668755_1M_subsample.fastq.gz
+  230  ls
+  231  cd
+  232  conda update --all
+  233  conda create cenrifuge
+  234  conda create -n cenrifuge
+  235  conda activate cenrifuge
+  236  conda intall -c bioconductor centrifugge
+  237  conda intall -c bioconductor centrifuge
+  238  conda intall -c bioconda centrifuge
+  239  conda install -c bioconda centrifuge
+  240  conda deactivate
+  241  conda activate rnaseq
+  242  cd RNA-seq/DIY/
+  243  ls
+  244  fastqc
+  245  conda list
+  246  fastqc SRR8668755_1M_subsample.fastq.gz -t 6
+  247  ls
+  248  cd RNA-seq/DIY/
+  249  ls
+  250  pwd
+  251  wget https://ftp.ensembl.org/pub/release-110/fasta/homo_sapiens/cdna/
+  252  ls
+  253  nano index.html
+  254  rm index.html
+  255  wget https://ftp.ensembl.org/pub/release-110/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz
+  256  conda activate rnaseq
+  257  gzip
+  258  unzip Homo_sapiens.GRCh38.cdna.all.fa.gz
+  259  gzip --help
+  260  gzip Homo_sapiens.GRCh38.cdna.all.fa.gz
+  261  gzip -d Homo_sapiens.GRCh38.cdna.all.fa.gz
+  262  ls
+  263  kallisto -i Homo_sapiens.GRCh38.cdna.all.idx Homo_sapiens.GRCh38.cdna.all.fa
+  264  kallisto index -i Homo_sapiens.GRCh38.cdna.all.idx Homo_sapiens.GRCh38.cdna.all.fa
+  265  kallisto index Homo_sapiens.GRCh38.cdna.all.fa
+  266  kallisto index -i indeks Homo_sapiens.GRCh38.cdna.all.fa
+  267  mv Homo_sapiens.GRCh38.cdna.all.fa reference.fa
+  268  ls
+  269  kallisto index -i indexfile.index reference.fa
+  270  conda env --help
+  271  conda install --help
+  272  kallisto guant --help
+  273  kallisto -i homo_sapiens/transcriptome.idx -o test -t 6 --single -l 250 -s 30 SRR8668755_1M_subsample.fastq.gz &>test.log
+  274  ls
+  275  cd homo_sapiens/
+  276  ls
+  277  cd ..
+  278  la
+  279  cd ..
+  280  ls
+  281  cd RNA-seq/DIY/
+  282  nano test.log
+  283  kallisto guant -i homo_sapiens/transcriptome.idx -o test -t 6 --single -l 250 -s 30 SRR8668755_1M_subsample.fastq.gz &>test.log
+  284  nano test.log
+  285  kallisto quant -i homo_sapiens/transcriptome.idx -o test -t 6 --single -l 250 -s 30 SRR8668755_1M_subsample.fastq.gz &>test.log
+  286  nano test
+  287  ls
+  288  nano test.log
+  289  cd test
+  290  ls
+  291  cd ..
+  292  ls
+  293  mkdir raw
+  294  mv SRR8668755_1M_subsample.fastq.gz raw/SRR8668755_1M_subsample.fastq.gz
+  295  ls
+  296  mv homo_sapiens/Homo_sapiens.GRCh38.cdna.all.fa raw/Homo_sapiens.GRCh38.cdna.all.fa
+  297  rm homo_sapiens.tar
+  298  ls
+  299  nano homo_sapiens/transcripts_to_genes.txt
+  300  mkdir kallisto
+  301  mv homo_sapiens/transcripts_to_genes.txt kallisto/transcripts_to_genes.txt
+  302  mv homo_sapiens/transcriptome.idx kallisto/transcripts_to_genes.txt
+  303  mkdir fastqc
+  304  mv SRR8668755_1M_subsample_fastqc.html fastqc/SRR8668755_1M_subsample_fastqc.html
+  305  mv SRR8668755_1M_subsample_fastqc.zip fastqc/SRR8668755_1M_subsample_fastqc.zip
+  306  mv test.log kallisto/test.log
+  307  ls
+  308  mv kallisto/test.log test/test.log
+  309  cd test
+  310  ls
+  311  cd ..
+  312  multiqc -d .
+  313  ls
+  314  multiqc_report.html
+  315  cp multiqc_report.html /mnt/c/Users/Ivana/Downloads/multiqc_report.html
+  316  ls
+  317  cd raw
+  318  wget https://ftp.ensembl.org/pub/release-110/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.toplevel.fa.gz
+  319  cd RNA-seq/DIY/
+  320  gzip -d homo_sapiens.tar.gz
+  321  -v
+  322  ls
+  323  nano homo_sapiens.tar
+  324  tar -xvf homo_sapiens.tar
+  325  ls
+  326  rm reference.fa
+  327  cd homo_sapiens/
+  328  ls
+  329  cd ..
+  330  ls
+  331  cd raw
+  332  ls
+  333  rm Homo_sapiens.GRCh38.cdna.all.fa
+  334  gzip -d Homo_sapiens.GRCh38.dna.toplevel.fa.gz
+  335  cd ../kallisto
+  336  conda activate rnaseq
+  337  kallisto index -i topindex.idx ../raw/Homo_sapiens.GRCh38.dna.toplevel.fa
+  338  kallisto index -i topindex.idx -t 12 ../raw/Homo_sapiens.GRCh38.dna.toplevel.fa
+  339  kallisto index -i topindex.idx ../raw/Homo_sapiens.GRCh38.dna.toplevel.fa
+  340  kallisto index -i topindex.idx ../raw/Homo_sapiens.GRCh38.dna.toplevel.fa &> indexing.log
+  341  cd
+  342  pwd
+  343  ls
+  344  conda activate rnaseq
+  345  cd /home/ivana/mnt/cd
+  346  cd /home/ivana/mnt/c
+  347  cd
+  348  cd /
+  349  cd mnt
+  350  cd c
+  351  ls
+  352  cd Users/Ivana/Downloads/
+  353  kallisto index -i Homo_sapiens.GRCh38.cdna.all.index Homo_sapiens.GRCh38.cdna.all.fa
+  354  kallisto
+  355  kallisto index --help
+  356  kallisto index -i index Homo_sapiens.GRCh38.cdna.all.fa
+  357  kallisto
+  358  conda
+  359  conda --help
+  360  conda env --help
+  361  conda update
+  362  kallisto index -i Homo_sapiens.GRCh38.cdna.all.idx Homo_sapiens.GRCh38.cdna.all.fa
+  363  cp
+  364  cp --help
+  365  cp Homo_sapiens.GRCh38.cdna.all.fa /RNA-seq/DIY/Homo_sapiens.GRCh38.cdna.all.fa
+  366  cp Homo_sapiens.GRCh38.cdna.all.fa /RNA-seq/DIY
+  367  cp Homo_sapiens.GRCh38.cdna.all.fa home/ivana/RNA-seq/DIY/Homo_sapiens.GRCh38.cdna.all.fa
+  368  cp Homo_sapiens.GRCh38.cdna.all.fa home/ivana/RNA-seq/DIY/
+  369  cp Homo_sapiens.GRCh38.cdna.all.fa home/ivana/RNA-seq/DIY
+  370  conda search kallisto   0.48.0
+  371  conda install -c bioconda kallisto 0.48.0
+  372  kallisto
+  373  conda install -c bioconda kallisto=0.48.0
+  374  cd /
+  375  cd
+  376  cd RNA-seq/DIY/kallisto/
+  377  kallisto index -i topindex.idx ../raw/Homo_sapiens.GRCh38.dna.toplevel.fa &> indexing.log
+  378  kallisto index -i topindex.idx ../raw/Homo_sapiens.GRCh38.dna.toplevel.fa &> kallistoind.log
+  379  kallisto index -i topindex.idx ../raw/Homo_sapiens.GRCh38.dna.toplevel.fa
+  380  history
+  381  nano command_history_30_08.txt
+  382  ls
+  383  mv command_history_30_08.txt /home/ivana/
+  384  history
